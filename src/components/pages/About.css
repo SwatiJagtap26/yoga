@@ -1,0 +1,46 @@
+.about-main{
+
+    text-align: center;
+}
+.about-head{
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(108, 174, 34);
+    font-family: "Reenie Beanie", cursive;
+    
+}
+.aboutus-img{
+    margin-top: 20px;
+    height: 800px;
+    width: 800px;
+    background: url('../../images/aboutus.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-box-info{
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about-box-info p{
+    color: gray;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.about-customer{
+    margin: 30px;
+}
+.feedback-ad{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}

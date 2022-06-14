@@ -1,0 +1,45 @@
+.Blog-main {
+  margin: 40px;
+}
+
+.Main-Blog-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Blog-Card {
+  text-align: center;
+  width: 350px;
+  align-items: center;
+  border: 3px black;
+  background-color: white;
+  cursor: pointer;
+}
+.Blog-Card:hover {
+  box-shadow: 0 3px 42px rgb(0 0 0 / 10%);
+}
+.Blog-Card h4 {
+  color: #000;
+  margin-top: 10px;
+}
+.Blog-Card p {
+  padding: 20px;
+  color: gray;
+}
+.blog-img {
+  height: 300px;
+  width: 350px;
+}
+.blog-entry {
+  position: absolute;
+  background: #6cae22;
+  margin-top: 270px;
+  margin-left: 90px;
+  width: 120px;
+  height: 35px;
+}
+.blog-entry i {
+  color: white;
+
+  text-align: center;
+  font-size: small;
+}
